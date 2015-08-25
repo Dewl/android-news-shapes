@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cover_photo_height">
+
+        <ImageView
+            android:id="@+id/iv_magazine_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cover_photo_height"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/magazine_cover_sample" />
+
+        <TextView
+            android:id="@+id/tv_magazine_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/Blurry"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:text="HN: Người đàn ông bất ngờ nhảy từ tầng 6 xuống đất"
+            android:textColor="@color/White"
+            android:textSize="@dimen/magazine_title_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_magazine_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:text="Trên Facebook đã xuất hiện lời cảnh báo mọi người phải cẩn trọng khi ở thủ đô Bangkok trong khoảng thời gian từ ngày 14.8 đến 18.8. Lời cảnh báo được đưa ra vào ngày 13.8 - 4 ngày trước vụ đánh bom đẫm máu làm rung chuyển Bangkok khiến hàng trăm người thương vong."
+        android:textSize="@dimen/magazine_description_size"
+        android:textStyle="italic" />
+
+</LinearLayout>

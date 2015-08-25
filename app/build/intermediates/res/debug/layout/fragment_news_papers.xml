@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    tools:context="khoi_kiet.news.Constants.NewsPapersFragment">
+
+    <GridView
+        android:id="@+id/gv_newspapers"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="singleChoice"
+        android:gravity="center"
+        android:numColumns="@integer/column"></GridView>
+
+</FrameLayout>
+<!-- From: file:/home/hkhoi/Projects/Android/News/app/src/main/res/layout/fragment_news_papers.xml -->

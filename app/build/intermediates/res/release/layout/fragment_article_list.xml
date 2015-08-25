@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="khoi_kiet.news.Fragments.ArticleListFragment">
+
+    <ListView
+        android:id="@+id/lv_article_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:choiceMode="singleChoice">
+
+    </ListView>
+</LinearLayout>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/News/app/src/main/res/layout/fragment_article_list.xml -->

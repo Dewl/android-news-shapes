@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="khoi_kiet.news.Activities.NewspaperActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"/>
+
+</menu>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/News/app/src/main/res/menu/menu_newspaper.xml -->

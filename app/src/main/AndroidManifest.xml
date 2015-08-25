@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="khoi_kiet.news" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.NewspaperActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_newspaper" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khoi_kiet.news.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.DetailsContentActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_details_content" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khoi_kiet.news.Activities.NewspaperActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.MagazineActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_magazine" />
+        <activity
+            android:name=".Activities.SelectCategoriesActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_select_categories" >
+        </activity>
+    </application>
+
+</manifest>

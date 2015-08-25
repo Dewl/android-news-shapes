@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_hot_square_title"
+    android:layout_width="@dimen/hot_square_size"
+    android:layout_height="@dimen/hot_square_size">
+
+    <ImageView
+        android:id="@+id/iv_hot_square"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/layout_article_list_photo_sample" />
+
+    <TextView
+        android:id="@+id/tv_hot_square_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Blurry"
+        android:gravity="center"
+        android:text="VNExpress"
+        android:textColor="@color/White"
+        android:textSize="@dimen/hot_square_font"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/home/hkhoi/Documents/Projects/Android/News/app/src/main/res/layout/layout_hot_square_title.xml -->

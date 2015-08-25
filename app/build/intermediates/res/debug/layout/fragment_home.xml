@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="khoi_kiet.news.Constants.HomeFragment">
+
+    <ListView
+        android:id="@+id/lv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="@dimen/padding">
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:visibility="visible">
+
+        <AnalogClock
+            android:id="@+id/analogClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/analogClock"
+            android:text="@string/nothing" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+<!-- From: file:/home/hkhoi/Projects/Android/News/app/src/main/res/layout/fragment_home.xml -->

@@ -1,0 +1,10 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vp_newspaper"
+    tools:context="khoi_kiet.news.Activities.NewspaperActivity" >
+
+
+</android.support.v4.view.ViewPager>
+<!-- From: file:/home/hkhoi/Projects/Android/News/app/src/main/res/layout/activity_newspaper.xml -->

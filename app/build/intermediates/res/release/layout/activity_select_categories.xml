@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    tools:context="khoi_kiet.news.Activities.SelectCategoriesActivity">
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gv_categories"
+        android:numColumns="2"
+        android:horizontalSpacing="@dimen/padding"
+        android:verticalSpacing="@dimen/padding"
+        android:choiceMode="singleChoice">
+
+    </GridView>
+
+</RelativeLayout>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/News/app/src/main/res/layout/activity_select_categories.xml -->

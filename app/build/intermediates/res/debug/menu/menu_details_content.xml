@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="khoi_kiet.news.Activities.DetailsContentActivity">
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        app:showAsAction="always"
+        android:icon="@drawable/share"/>
+</menu>
+<!-- From: file:/home/hkhoi/Projects/Android/News/app/src/main/res/menu/menu_details_content.xml -->

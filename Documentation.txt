@@ -1,0 +1,29 @@
+Documentation:
+1. Add a new newspaper:
+    - Constants.java
+        * public static ArrayList<Integer> getThumbnailIds(): Thumbnail picture
+        * public static HashMap<Integer, Integer> getCategoryMap(): Array of tab names
+        * public static HashMap<Integer, String> getLinkMap(): Link RSS
+    - string.xml: Source for tab names
+
+
+
+
+<item>Breaking News</item>
+<item>World</item>
+<item>Business</item>
+<item>Entertainment</item>
+<item>Sport</item>
+<item>Laws</item>
+<item>Education</item>
+<item>Health</item>
+<item>Family</item>
+<item>Travel</item>
+<item>Science</item>
+<item>Tech</item>
+<item>Vehicles</item>
+<item>Community</item>
+<item>Talk</item>
+<item>Fun</item>
+
+https://github.com/ToxicBakery/ViewPagerTransforms

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/thumbnail_photo_padding"
+    android:paddingTop="@dimen/thumbnail_photo_padding">
+
+    <ImageView
+        android:id="@+id/iv_article_list_photo"
+        android:layout_width="@dimen/thumbnail_photo_size"
+        android:layout_height="@dimen/thumbnail_photo_size"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        android:src="@drawable/layout_article_list_photo_sample" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/thumbnail_photo_padding"
+        android:paddingRight="@dimen/thumbnail_photo_padding">
+
+        <TextView
+            android:id="@+id/tv_article_thumbail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hà Nội công bố 10 khoản thu chi đầu năm học"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_article_thumbanil_des"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Nước uống tinh khiết, đồng phục, phù hiệu, sửa chữa mua sắm trang thiết bị… là những khoản thu học sinh sẽ phải đóng vào đầu năm học mới."
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

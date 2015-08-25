@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">News-Shapes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="tab_names">
+        <item>Favorite Rectangles</item>
+        <item>Hot Squares</item>
+        <item>Classic Circles</item>
+    </string-array>
+
+    <string-array name="newspaper_names">
+        <item>VNExpress</item>
+        <item>24H</item>
+        <item>Vietnamnet</item>
+        <item>Tiền Phong</item>
+        <item>Công An</item>
+        <item>Dân Trí</item>
+        <item>ĐS&amp;PL</item>
+        <item>NLĐ</item>
+    </string-array>
+
+    <string-array name="vnexpress_categories">
+        <item>Home</item>
+        <item>Breaking News</item>
+        <item>World</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+        <item>Laws</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Family</item>
+        <item>Travel</item>
+        <item>Science</item>
+        <item>Tech</item>
+        <item>Vehicles</item>
+        <item>Community</item>
+        <item>Talk</item>
+        <item>Fun</item>
+    </string-array>
+
+    <string-array name="twentyfour_categories">
+        <item>Soccer</item>
+        <item>Breaking News</item>
+        <item>Criminal</item>
+        <item>Sport</item>
+        <item>Economy</item>
+        <item>Education</item>
+        <item>Market</item>
+        <item>Health</item>
+        <item>Society</item>
+        <item>Tech</item>
+        <item>Food</item>
+        <item>Music</item>
+        <item>Make-up</item>
+        <item>Travel</item>
+        <item>Entertainment</item>
+        <item>Vehicles</item>
+        <item>Fashion</item>
+        <item>Weirdness</item>
+        <item>Fun</item>
+    </string-array>
+
+    <string-array name="vietnamnet_categories">
+        <item>Home</item>
+        <item>Breaking News</item>
+        <item>Features</item>
+        <item>Society</item>
+        <item>Education</item>
+        <item>Politics</item>
+        <item>Vietnam Week</item>
+        <item>Life Style</item>
+        <item>Economy</item>
+        <item>World</item>
+        <item>Culture</item>
+        <item>Science</item>
+        <item>Tech</item>
+        <item>Community</item>
+        <item>Photo</item>
+    </string-array>
+
+    <string-array name="tienphong_categories">
+        <item>Home</item>
+        <item>Breaking News</item>
+        <item>Societyt</item>
+        <item>Laws</item>
+        <item>Education</item>
+        <item>Business</item>
+        <item>World</item>
+        <item>Sport</item>
+        <item>Entertainment</item>
+        <item>Youth</item>
+        <item>Tech</item>
+        <item>Military</item>
+    </string-array>
+
+    <string-array name="congan_categories">
+        <item>Home</item>
+        <item>Laws</item>
+        <item>Sport</item>
+        <item>Business</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Science</item>
+        <item>Tech</item>
+        <item>Vehicles</item>
+        <item>Community</item>
+        <item>Talk</item>
+        <item>Politics</item>
+        <item>World</item>
+        <item>Fun</item>
+        <item>Lifestyle</item>
+    </string-array>
+
+    <string-array name="dantri_categories">
+        <item>Home</item>
+        <item>Education</item>
+        <item>World</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+        <item>Health</item>
+        <item>Lifestyle</item>
+        <item>Travel</item>
+        <item>Tech</item>
+        <item>Vehicles</item>
+        <item>Community</item>
+        <item>Talk</item>
+    </string-array>
+
+    <string-array name="dspl_categories">
+        <item>Home</item>
+        <item>Breaking News</item>
+        <item>World</item>
+        <item>Business</item>
+        <item>Soccer</item>
+        <item>Laws</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+        <item>Lifestyle</item>
+        <item>Health</item>
+        <item>Tech</item>
+        <item>Vehicles</item>
+        <item>Community</item>
+    </string-array>
+
+    <string-array name="nld_categories">
+        <item>Laws</item>
+        <item>Breaking News</item>
+        <item>World</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Business</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Fun</item>
+        <item>Health</item>
+        <item>Politics</item>
+        <item>Science</item>
+        <item>Soccer</item>
+        <item>Sport</item>
+        <item>Talk</item>
+        <item>Tech</item>
+        <item>Travel</item>
+        <item>Vehicle</item>
+        <item>World</item>
+    </string-array>
+
+    <string name="title_activity_newspaper">NewspaperActivity</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="title_activity_details_content">DetailsContentActivity</string>
+    <string name="title_activity_magazine">MagazineActivity</string>
+    <string name="title_activity_magazine_fragment">MagazineFragment</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="initializing">Initializing...</string>
+    <string name="title_activity_select_categories">Choose your rectangles</string>
+    <string name="favorite_category">Favorite Categories</string>
+    <string name="nothing">Welcome! You don\'t have any rectangles yet, go to menu and choose something :)</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+</resources>
